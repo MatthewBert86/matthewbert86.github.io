@@ -10137,6 +10137,26 @@ section.resume-section .resume-section-content {
 }
 
 
+/* PORTFOLIO */
+
+.controls-top {
+  padding-bottom: 10px;
+}
+
+.svg-inline--fa.fa-w-10 {
+    width: 2.5em;
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 2em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+
+
 /* CONTACT FORM */
 
 .form-border {
@@ -10144,7 +10164,7 @@ section.resume-section .resume-section-content {
   width: 60%;
   margin: 0 auto;
   padding: 15px 0;
-  border-radius: 25%;
+  border-radius: 30px;
 }
 
 .inputs {
@@ -10174,5 +10194,6 @@ section.resume-section .resume-section-content {
     padding: 15px 30px;
     align-content: center;
     margin: 0 auto;
+    border-radius: 30px;
   }
 }

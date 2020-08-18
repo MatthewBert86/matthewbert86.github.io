@@ -89,38 +89,129 @@
             <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
                     <h2 class="mb-5">Portfolio</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img class="card-img-top" src="./assets/img/hammock-dreams.png" alt="Hammock Dreams">
-                                <div class="card-body">
-                                    <h5 class="card-title">Hammock Dreams</h5>
-                                    <p class="card-text">This is a Wordpress redesign using an existing theme.</p>
+
+                            <!--Carousel Wrapper-->
+                            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+                            
+                                <!--Controls-->
+                                <div class="controls-top">
+                                    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                                    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right"></i></a>
                                 </div>
-                                <div class="card-footer">
-                                    <small class="text-muted"><a href="https://hammockdreams-60854f.ingress-alpha.easywp.com/">Visit Site</a></small>
+                                <!--/.Controls-->
+                            
+                                <!--Indicators-->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                            
+                                </ol>
+                                <!--/.Indicators-->
+                            
+                                <!--Slides-->
+                                <div class="carousel-inner" role="listbox">
+                            
+                                    <!--First slide-->
+                                    <div class="carousel-item active">
+                            
+                                        <div class="col-md-4" style="float:left">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top"
+                                                    src="./assets/img/hammock-dreams.png"
+                                                    alt="Hammock Dreams">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Hammock Dreams</h4>
+                                                    <p class="card-text">Web Design on an existing WordPress theme.</p>
+                                                    <a href="https://hammockdreams-60854f.ingress-alpha.easywp.com/" class="btn btn-primary">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-md-4" style="float:left">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top"
+                                                    src="./assets/img/tukro.png"
+                                                    alt="Tukro Coffee">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Tükrō Coffee</h4>
+                                                    <p class="card-text">Web Design on an existing WordPress theme.<br></p>
+                                                    <a href ="http://www.tukrocoffee.com/" class="btn btn-primary">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-md-4" style="float:left">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top"
+                                                    src="./assets/img/mental.png"
+                                                    alt="Mental Geek">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mental Geek</h4>
+                                                    <p class="card-text">Gatsby/React Blog with Markdown</p>
+                                                    <a href="https://mentalgeek.vercel.app/" class="btn btn-primary">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        
+                                        
+                            
+                                    </div>
+                                    <!--/.First slide-->
+                            
+                                    <!--Second slide-->
+                                    <div class="carousel-item">
+                            
+                                        <div class="col-md-4" style="float:left">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top"
+                                                    src="./assets/img/resources.png"
+                                                    alt="Mental Health">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mental Health Resources</h4>
+                                                    <p class="card-text">A Filterable List of resources built in Vanilla JS</p>
+                                                    <a href="https://mentalhealthresource.netlify.app/" class="btn btn-primary">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-md-4" style="float:left">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top"
+                                                    src="./assets/img/starwars.png"
+                                                    alt="Star Wars">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Star Wars Finder</h4>
+                                                    <p class="card-text">Filterable list sorting through JSON data.</p>
+                                                    <a href="https://starwarsinfo.surge.sh/" class="btn btn-primary">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                        <div class="col-md-4" style="float:left">
+                                            <div class="card mb-2">
+                                                <img class="card-img-top"
+                                                    src="./assets/img/todo-list.png"
+                                                    alt="Card image cap">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Todo-List</h4>
+                                                    <p class="card-text">My first NodeJS/Express and MongoDB project.</p>
+                                                    <a href="https://mattberttodoapp.herokuapp.com/" class="btn btn-primary">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                            
+                                    </div>
+                                    <!--/.Second slide-->
+                            
+                            
+                            
                                 </div>
+                                <!--/.Slides-->
+                            
                             </div>
-                            <div class="card">
-                                <img class="card-img-top" src="./assets/img/tukro.png" alt="Tukro Coffee">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tükrō Coffee</h5>
-                                    <p class="card-text">This is another Wordpress Design. I am rebuilding the site in react and using WP for the content when client gets content together.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted"><a href="http://tukrocoffee.com/">Visit Site</a></small>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img class="card-img-top" src="./assets/img/mental.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Mental Geek</h5>
-                                    <p class="card-text">A Markdown blog built with Gatsby and React. I am currently changing it to a headless WP app in react using Frontity. You can check out that new link below.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-muted"><a href="https://mentalgeek.vercel.app/">Visit Site</a></small>
-                                </div>
-                            </div>
+                            <!--/.Carousel Wrapper-->
+                            
                         </div>
                     </div>
                 </div>
@@ -181,6 +272,8 @@
                     <div class="shadow-sm d-flex flex-column flex-md-row justify-content-center mb-3 form-border rounded">
                     <form action="https://formspree.io/maypzqev" method="POST" class="mainform">
                         
+                        <h3>Get in touch</h3>
+
                         <label>
                             Your name:<br>
                             <input type="text" name="name" class="inputs">
@@ -203,7 +296,7 @@
                     <br>
                         <!-- your other form fields go here -->
                     
-                        <button type="submit">Send</button>
+                        <button class="btn btn-primary" type="submit">Send</button>
                     </form>
                     </form>
                     </div>
