@@ -87,6 +87,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1.15rem;
 }
 
 abbr[title],
@@ -10140,11 +10141,38 @@ section.resume-section .resume-section-content {
 
 .form-border {
   border: 1px solid;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   padding: 15px 0;
+  border-radius: 25%;
 }
 
 .inputs {
-  width: 25em;
+  width: 500px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .inputs {
+    width: 450px;
+  }
+  .form-border {
+    width: 80%;
+    padding: 15px 30px;
+    align-content: center;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .inputs {
+    width: 18em;
+  }
+  .form-border {
+    width: 80%;
+    padding: 15px 30px;
+    align-content: center;
+    margin: 0 auto;
+  }
 }
