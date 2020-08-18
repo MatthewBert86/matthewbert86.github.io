@@ -53,7 +53,7 @@
                         <a class="social-icon" href="https://www.linkedin.com/in/mbert1986/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/matthewbert86"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="https://twitter.com/mattlearnsjs"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/therealmattbert/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
             </section>
